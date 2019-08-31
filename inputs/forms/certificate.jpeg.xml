@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<template>
+
+    <field name="student.name" x="560" y="585" font="Roboto-Regular.ttf" font_colour="#000000" font_size="20"></field>
+    <field name="student.belt_level.next_level.gup" x="830" y="635" font="Roboto-Regular.ttf" font_colour="#000000" font_size="20"></field>
+
+    <field name="date_day" x="642" y="675" font="Roboto-Bold.ttf" font_colour="#000000" font_size="14"></field>
+    <field name="date_month" x="780" y="675" font="Roboto-Bold.ttf" font_colour="#000000" font_size="14"></field>
+    <field name="date_year" x="810" y="675" font="Roboto-Bold.ttf" font_colour="#000000" font_size="14"></field>
+
+    <field name="group_authority" x="500" y="700" font="Roboto-Bold.ttf" font_colour="#000000" font_size="16"></field>
+    <field name="kjn" x="800" y="750" font="Roboto-Bold.ttf" font_colour="#000000" font_size="12"></field>
+
+    <field name="admin1" x="500" y="720" font="Roboto-Regular.ttf" font_colour="#000000" font_size="12"></field>
+    <field name="admin2" x="500" y="738" font="Roboto-Regular.ttf" font_colour="#000000" font_size="12"></field>
+    <field name="admin3" x="500" y="756" font="Roboto-Regular.ttf" font_colour="#000000" font_size="12"></field>
+    
+</template>

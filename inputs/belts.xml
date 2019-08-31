@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<belts>
+
+    <!-- Little Dragons -->
+
+    <belt id="1" name="Little Dragon White Belt" next_belt="2">
+        <match_pattern>little\s*dragon\s+white\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">LD_White_to_Orange_stripe</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">35</attribute>
+            <attribute name="gup">LD White</attribute>
+        </attributes>
+    </belt>
+
+    <belt id="2" name="Little Dragon Orange Stripe" next_belt="3">
+        <match_pattern>little\s*dragon\s+(orange[\s-]*(?:stripe)?)\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">LD_Orange_Stripe_to_Green_Stripe</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">40</attribute>
+            <attribute name="gup">LD Orange Stripe</attribute>
+        </attributes>
+    </belt>
+
+    <belt id="3" name="Little Dragon Green Stripe" next_belt="4">
+        <match_pattern>little\s*dragon\s+(green[\s-]*(?:stripe)?)\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">LD_Green_Stripe_to_Blue_Stripe</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">45</attribute>
+            <attribute name="gup">LD Green Stripe</attribute>
+        </attributes>
+    </belt>
+
+    <belt id="4" name="Little Dragon Blue Stripe" next_belt="5">
+        <match_pattern>little\s*dragon\s+(blue[\s-]*(?:stripe)?)\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">LD_Blue_Stripe_to_Red_Stripe</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">50</attribute>
+            <attribute name="gup">LD Blue Stripe</attribute>
+        </attributes>
+    </belt>
+
+    <belt id="5" name="Little Dragon Red Stripe" next_belt="6">
+        <match_pattern>little\s*dragon\s+(red[\s-]*(?:stripe)?)\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">LD_Red_Stripe_to_Grey_Belt</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">55</attribute>
+            <attribute name="gup">LD Red Stripe</attribute>
+        </attributes>
+    </belt>
+
+    <belt id="6" name="Little Dragon Grey" next_belt="11">
+        <match_pattern>little\s*dragon\s+(grey[\s-]*(?:stripe)?)\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">LD_Grey_Belt_to_Yellow_Stripe</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">60</attribute>
+            <attribute name="gup">LD Grey</attribute>
+        </attributes>
+    </belt>
+
+    <!-- Colour Belts -->
+    <belt id="10" name="White Belt" next_belt="11">
+        <match_pattern>white\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">Test_Form</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">70</attribute>
+            <attribute name="gup">10th</attribute>
+        </attributes>
+    </belt>
+
+    <belt id="11" name="Yellow Stripe" next_belt="12">
+        <match_pattern>yellow[\s-]*stripe\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">Test_Form</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">80</attribute>
+            <attribute name="gup">9th</attribute>
+        </attributes>
+    </belt>
+
+    <belt id="12" name="Yellow Belt" next_belt="13">
+        <match_pattern>yellow\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">Test_Form</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">90</attribute>
+            <attribute name="gup">8th</attribute>
+        </attributes>
+    </belt>
+
+
+    <belt id="13" name="Green Stripe" next_belt="14">
+        <match_pattern>green[\s-]*stripe\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">Test_Form</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">100</attribute>
+            <attribute name="gup">7th</attribute>
+        </attributes>
+    </belt>
+
+    <belt id="14" name="Green Belt" next_belt="15">
+        <match_pattern>green\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">Test_Form</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">110</attribute>
+            <attribute name="gup">6th</attribute>
+        </attributes>
+    </belt>
+
+    <belt id="15" name="Blue Stripe" next_belt="16">
+        <match_pattern>blue[\s-]*stripe\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">Test_Form</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">125</attribute>
+            <attribute name="gup">5th</attribute>
+        </attributes>
+    </belt>
+
+    <belt id="16" name="Blue Belt" next_belt="17">
+        <match_pattern>blue\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">Test_Form</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">145</attribute>
+            <attribute name="gup">4th</attribute>
+        </attributes>
+    </belt>
+
+
+    <belt id="17" name="Red Stripe" next_belt="18">
+        <match_pattern>red[\s-]*stripe\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">Test_Form</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">165</attribute>
+            <attribute name="gup">3rd</attribute>
+        </attributes>
+    </belt>
+
+    <belt id="18" name="Red Belt" next_belt="19">
+        <match_pattern>red\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">Test_Form</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">205</attribute>
+            <attribute name="gup">2nd</attribute>
+        </attributes>
+    </belt>
+
+    <belt id="19" name="Black Stripe">
+        <match_pattern>black[\s-]*stripe\s*(?:belt)?</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">Test_Form</paperwork>
+            <paperwork>certificate</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">550</attribute>
+            <attribute name="gup">1st</attribute>
+        </attributes>
+    </belt>
+
+    <!-- Black Belt (Level Tests) -->
+    <belt id="100" name="Black Belt Level Test">
+        <match_pattern>black\s*belt.*</match_pattern>
+
+        <paperworks>
+            <paperwork name="test_form">Test_Form</paperwork>
+        </paperworks>
+
+        <attributes>
+            <attribute name="fee">50</attribute>
+        </attributes>
+    </belt>
+
+
+</belts>
