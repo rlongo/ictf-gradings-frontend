@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ICTF Gradings</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+
+  <div class="container is-fluid">
+
+    <h1 class="title">ICTF Gradings Portal</h1>
+
+    <form action="/" method="POST">
+
+      <div class="field">
+          <label class="label">Group Affiliation</label>
+          <div class="control">
+            <input name="group_authority" class="input" type="text" value="{{ group_authority }}">
+          </div>
+        </div>
+
+
+      <div class="field">
+        <label class="label">Group Lead</label>
+        <div class="control">
+          <input name="kjn" class="input" type="text" value="{{ kjn }}">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Dojang</label>
+        <div class="control">
+          <input name="dojang" class="input" type="text" value="{{ dojang }}">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Dojang Head Instructor/Supervisor</label>
+        <div class="control">
+          <input name="head_instructor" class="input" type="text" placeholder="i.e. Mr. J. Cariati VI DAN" value="{{ head_instructor }}">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Dojang Assistant Supervisor 1</label>
+        <div class="control">
+          <input name="admin2" class="input" type="text" placeholder="i.e. Mr. J. Cariati VI DAN" value="{{ admin2 }}">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Dojang Assistant Supervisor 2</label>
+        <div class="control">
+          <input name="admin3" class="input" type="text" placeholder="i.e. Mr. J. Cariati VI DAN" value="{{ admin3 }}">
+        </div>
+      </div>
+
+      <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Date</label>
+          </div>
+          <div class="field-body">
+            <div class="field is-narrow">
+              
+              <div class="control">
+                  <input name="date_year" class="input" type="number" placeholder="year" value="{{ date_year }}">
+                </div>
+                <div class="control">
+                    <input name="date_month" class="input" type="text" placeholder="month" value="{{ date_month }}">
+                  </div>
+                  <div class="control">
+                      <input name="date_day" class="input" type="number" placeholder="day" value="{{ date_day }}">
+                    </div>
+            </div>
+          </div>
+        </div>
+        
+
+
+        <div class="control">
+          <button class="button is-link">Submit</button>
+        </div>
+
+  </div>
+  </form>
+
+
+
+
+</body>
+
+</html>
