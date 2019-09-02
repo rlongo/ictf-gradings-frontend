@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <template>
 
-    <field name="student.lname" x="90" y="180" font="Roboto-Regular.ttf" font_colour="#2196f3" font_size="18"></field>
-    <field name="student.fname" x="500" y="180" font="Roboto-Regular.ttf" font_colour="#2196f3" font_size="18"></field>
-    <field name="student.belt_level.name" x="127" y="430" font="Roboto-Regular.ttf" font_colour="#2196f3" font_size="18"></field>
-    <field name="head_instructor" x="525" y="270" font="Roboto-Regular.ttf" font_colour="#2196f3" font_size="18"></field>
-    <field name="dojang" x="125" y="270" font="Roboto-Regular.ttf" font_colour="#2196f3" font_size="18"></field>
+    <field name="student.lname" x="90" y="180" font="app/inputs/fonts/Roboto-Regular.ttf" font_colour="#2196f3" font_size="18"></field>
+    <field name="student.fname" x="500" y="180" font="app/inputs/fonts/Roboto-Regular.ttf" font_colour="#2196f3" font_size="18"></field>
+    <field name="student.belt_level.name" x="127" y="430" font="app/inputs/fonts/Roboto-Regular.ttf" font_colour="#2196f3" font_size="18"></field>
+    <field name="head_instructor" x="525" y="270" font="app/inputs/fonts/Roboto-Regular.ttf" font_colour="#2196f3" font_size="18"></field>
+    <field name="dojang" x="125" y="270" font="app/inputs/fonts/Roboto-Regular.ttf" font_colour="#2196f3" font_size="18"></field>
     
-    <field name="student.belt_level.fee" x="700" y="430" font="Roboto-Bold.ttf" font_colour="#f44336" font_size="18"></field>
-    <field name="date_year" x="350" y="332" font="Roboto-Bold.ttf" font_colour="#f44336" font_size="18"></field>
-    <field name="date_month" x="145" y="332" font="Roboto-Bold.ttf" font_colour="#f44336" font_size="18"></field>
-    <field name="date_day" x="245" y="332" font="Roboto-Bold.ttf" font_colour="#f44336" font_size="18"></field>
+    <field name="student.belt_level.fee" x="700" y="430" font="app/inputs/fonts/Roboto-Bold.ttf" font_colour="#f44336" font_size="18"></field>
+    <field name="date_year" x="350" y="332" font="app/inputs/fonts/Roboto-Bold.ttf" font_colour="#f44336" font_size="18"></field>
+    <field name="date_month" x="145" y="332" font="app/inputs/fonts/Roboto-Bold.ttf" font_colour="#f44336" font_size="18"></field>
+    <field name="date_day" x="245" y="332" font="app/inputs/fonts/Roboto-Bold.ttf" font_colour="#f44336" font_size="18"></field>
 
 </template>
