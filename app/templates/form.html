@@ -95,7 +95,9 @@
                   <i class="fas fa-upload"></i>
                 </span>
                 <span class="file-label">
-                  Choose a file…
+                  Upload a Students List File.
+                  <br>
+                  <b>NOTE: no visual update when file selected</b>
                 </span>
               </span>
             </label>
@@ -107,11 +109,43 @@
           <button class="button is-link">Submit</button>
         </div>
 
-  </div>
   </form>
 
+  </div>
 
+  <br>
 
+  <div class="container is-fluid">
+    <h2>How to format the Students List File</h2>
+    <div class="content">
+        <ul class="is-lower-alpha">
+          <li>You must have exactly 4 columns, no extras</li>
+          <li>The first row of the excel file must have the headers (spelled exactly the same): </li>
+          <table class="table">
+              <thead>
+                <tr>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Belt Size</th>
+                  <th>Belt Level</th>
+                </tr>
+              </thead>
+            </table>
+          <li>Belt Size can be either a number ("2") or the word size and a number "size 00"</li>
+          <li>Belt level should be LITTLE DRAGON COLOUR STRIPE/BELT. If they aren't a little dragon, then: COLOUR STRIPE/BELT. Some examples of valid inputs: "Little Dragon Blue Stripe", "Red Stripe", "Blue Belt"</li>
+        </ul>
+      </div>
+  </div>
+   
+  <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>ICTF Gradings Portal</strong> by <a href="https://github.com/rlongo/ictf-gradings-frontend">rlongo</a>.
+          The source code is licensed
+          <a href="https://github.com/rlongo/ictf-gradings-frontend/blob/master/LICENSE">MIT</a>.
+        </p>
+      </div>
+    </footer>
 
 </body>
 
