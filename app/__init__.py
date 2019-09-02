@@ -1,7 +1,8 @@
 #!/bin/python3
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_file
 from datetime import datetime
+from .processing import run_pipeline
 
 app = Flask(__name__)
 
@@ -39,6 +40,15 @@ def form():
             'date_year', 'date_month','date_day']
         for k in keys:
             config[k] = request.form.get(k)
+
+        request_file = request.files['student_list']
+        if not request_file:
+            return "No file"
+
+        file_contents = request_file.stream
+
+        output = run_pipeline('/tmp/scratch/ictf/', file_contents, config)
+        return send_file(output)
     else:
         config['date_year'], config['date_month'], config['date_day'] = get_time()
         config['group_authority'] = 'WOODBRIDGE TAEKWON-DO GROUP - GRAND MASTER J. CARIATI IX DAN'
