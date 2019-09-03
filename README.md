@@ -2,7 +2,7 @@
 
 A Web UI to the ICTF Pipeline package that is built for heroku.
 
-**WARNING: [THIS IS A MVP](https://www.wikiwand.com/en/Minimum_viable_product)**
+**WARNING: [THIS IS AN MVP](https://www.wikiwand.com/en/Minimum_viable_product)** wrapper for the [backend project](https://github.com/rlongo/ictf-gradings-paperwork).
 
 ## Starting the App (Dev)
 ```bash
