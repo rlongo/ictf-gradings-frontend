@@ -1,4 +1,6 @@
 env/
+venv/
+.idea
 outputs/
 *__pycache__
 .vscode

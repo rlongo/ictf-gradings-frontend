@@ -27,7 +27,7 @@ def compress_output(outdir):
     zipf = zipfile.ZipFile(f, 'w', zipfile.ZIP_DEFLATED)
     pwd = os.getcwd()
     try:
-        os.chdir(os.path.join(outdir, 'GOOD'))
+        os.chdir(outdir)
 
         for root, dirs, files in os.walk(os.getcwd()):
             for file in files:
